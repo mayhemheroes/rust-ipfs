@@ -1,0 +1,7 @@
+project: rust-ipfs
+target: decode-ipld
+
+cmds:
+  - cmd: /decode_ipld
+  - cmd: /decode_ipld_no_inst @@
+    libfuzzer: false
