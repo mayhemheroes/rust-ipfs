@@ -1,0 +1,8 @@
+# Mayhemfile for the decode-ipld target (name preserved from the original integration so
+# the fork's Mayhem run history stays attached).
+project: rust-ipfs
+target: decode-ipld
+
+cmds:
+  - cmd: /mayhem/decode_ipld
+    libfuzzer: true
